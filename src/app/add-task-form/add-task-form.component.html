@@ -1,0 +1,8 @@
+<div class="add-task-form">
+  <label>Новая задача:
+    <input class="add-task-form__input" placeholder="Название задачи" [(ngModel)]="taskName">
+  </label>
+  <span class="add-task-form__button" (click)="addTask(taskName)">
+    Добавить
+  </span>
+</div>

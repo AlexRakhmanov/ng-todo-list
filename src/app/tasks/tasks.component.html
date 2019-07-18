@@ -1,0 +1,8 @@
+<div class="tasks">
+  <ul class="tasks__list">
+    <li class="tasks__task" *ngFor="let task of tasks">
+      <div class="tasks__task--text">{{ task.task }}</div>
+      <span class="tasks__task--delete-button" (click)="deleteTask(task.id)">X</span>
+    </li>
+  </ul>
+</div>

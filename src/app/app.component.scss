@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  bottom: 5px;
+
+  a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+}

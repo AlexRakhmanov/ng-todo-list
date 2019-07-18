@@ -1,0 +1,40 @@
+.tasks {
+  width: 30em;
+
+  ul {
+    padding: 0;
+  }
+
+  &__task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 16px;
+    transition: color, background-color 0.5s;
+    background-color: #fff;
+    color: black;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px rgba(10,16,20,.24), 0 0 2px rgba(10,16,20,.12);
+
+    &:hover {
+      color: white;
+      background-color: black;
+    }
+
+    &--delete-button {
+      height: 40px;
+      padding: 10px 15px;
+      margin-left: 10px;
+      color: black;
+      background-color: white;
+      border-radius: 48px;
+      box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+      box-sizing: border-box;
+      cursor: pointer;
+      transition: color, background-color 0.5s;
+    }
+  }
+}
